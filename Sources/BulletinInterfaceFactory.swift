@@ -27,6 +27,9 @@ public class BulletinInterfaceFactory {
     /// The title color to apply to action button.
     public var actionButtonTitleColor = UIColor.white
 
+    /// The tint color to apply to image
+    public var imageTintColor: UIColor?
+
 
     // MARK: - Fonts
 

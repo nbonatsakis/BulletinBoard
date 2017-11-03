@@ -185,6 +185,10 @@ open class PageBulletinItem: BulletinItem {
                 imageView.accessibilityLabel = imageAccessibilityLabel
             }
 
+            if let imageTintColor = interfaceFactory.imageTintColor {
+                imageView.tintColor = imageTintColor
+            }
+
             arrangedSubviews.append(imageView)
 
         }
